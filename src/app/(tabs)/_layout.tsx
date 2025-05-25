@@ -7,7 +7,7 @@ type Props = {}
 
 export default function TabsLayout(props: Props) {
     return (
-        <Tabs screenOptions={{ headerShown: false, tabBarActiveTintColor: 'black', tabBarShowLabel: false }}>
+        <Tabs screenOptions={{ headerShown: false, tabBarShowLabel: false }}>
             <Tabs.Screen name='index' options={{
                 title: 'Home',
                 tabBarIcon: ({ color, size }) => (
